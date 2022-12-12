@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bitcoin Wallet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Bitcoin Wallet</h1>
+    <p>Your bitcoin address: <span id="address"></span></p>
+    <p>Your bitcoin balance: <span id="balance"></span> BTC</p>
+    <form>
+      <label for="recipient">Recipient address:</label><br />
+      <input type="text" id="recipient" /><br />
+      <label for="amount">Amount to send (in BTC):</label><br />
+      <input type="number" id="amount" /><br />
+      <input type="submit" value="Send" />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
